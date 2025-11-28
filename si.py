@@ -4,9 +4,9 @@ if len(sys.argv) >= 4:
     r = float(sys.argv[2])
     t = float(sys.argv[3])
 else:
-    p = float(input("Enter principal: "))
-    r = float(input("Enter rate: "))
-    t = float(input("Enter time: "))
+    p = 100
+    r = 2
+    t = 3
 
 si = (p * r * t) / 100
 
